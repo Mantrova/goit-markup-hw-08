@@ -1,6 +1,6 @@
 
 @media screen and (max-width: 767px) {
-    .features-point {
+    .features-point:not(:last-child) {
         margin-bottom: 30px;
         max-width: 450px;
     }
