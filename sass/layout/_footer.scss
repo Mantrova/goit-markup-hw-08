@@ -28,10 +28,11 @@
 
     .subscribe-call {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .subscr-block__btn {
-        margin: 20px 140px 60px;
+        margin: 20px 140px 0px;
     }
 
     .subscr-block__email-input {
@@ -157,6 +158,7 @@
     color: var(--main-light-color);
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
 }
     
 
@@ -221,6 +223,7 @@
     .subscribe-call {
         margin-top: 60px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .subscr-block__email-input {
