@@ -84,13 +84,15 @@
     }
     
     .menu__link_current {
+        position: relative;
         color: var(--accent-color);
     }
     
     .menu__link.menu__link_current::after {
+        content:"";
         position: absolute;
         bottom: -28px;
-        content: '';
+    
         display: block;
         width: 47px;
         height: 4px;
